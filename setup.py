@@ -6,7 +6,7 @@ from setuptools import setup
 
 setup(
     name="runner",
-    version="2.0",
+    version="2.1",
     description="Task runner",
     author="Chris AtLee",
     author_email="chris@atlee.ca",
@@ -18,5 +18,4 @@ setup(
         "console_scripts": ["runner = runner:main"],
     },
     url="https://github.com/mozilla/runner",
-    setup_requires=["nose==1.3.1"],
 )
